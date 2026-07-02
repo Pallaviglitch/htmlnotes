@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- Tells the browser that this document is HTML5 -->
+
+<html lang="en">
+<!-- Root element of the HTML document -->
+
+<head>
+    <!-- Contains information about the webpage -->
+
+    <meta charset="UTF-8">
+    <!-- Supports all characters -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the webpage responsive -->
+
+    <title>HTML Lists</title>
+    <!-- Title shown on the browser tab -->
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- ORDERED LIST -->
+    <!-- ============================= -->
+
+    <h2>Ordered List (ol)</h2>
+
+    <!-- Default Ordered List -->
+    <ol>
+        <li>Wake Up</li>
+        <li>Brush Teeth</li>
+        <li>Go to College</li>
+    </ol>
+
+    <br>
+
+    <!-- Ordered List using Capital Alphabets -->
+    <h3>Ordered List - Type A</h3>
+
+    <ol type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <br>
+
+    <!-- Ordered List using Small Alphabets -->
+    <h3>Ordered List - Type a</h3>
+
+    <ol type="a">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ol>
+
+    <br>
+
+    <!-- Ordered List using Capital Roman Numbers -->
+    <h3>Ordered List - Roman Numbers</h3>
+
+    <ol type="I">
+        <li>Semester 1</li>
+        <li>Semester 2</li>
+        <li>Semester 3</li>
+    </ol>
+
+    <br>
+
+    <!-- Ordered List starting from 5 -->
+    <h3>Ordered List - Start Attribute</h3>
+
+    <ol start="5">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <br>
+
+    <!-- Reversed Ordered List -->
+    <h3>Reversed Ordered List</h3>
+
+    <ol reversed>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+
+    <hr>
+
+    <!-- ============================= -->
+    <!-- UNORDERED LIST -->
+    <!-- ============================= -->
+
+    <h2>Unordered List (ul)</h2>
+
+    <!-- Default Bullet -->
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+    </ul>
+
+    <br>
+
+    <!-- Circle Bullet -->
+    <h3>Circle Bullet</h3>
+
+    <ul type="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <br>
+
+    <!-- Square Bullet -->
+    <h3>Square Bullet</h3>
+
+    <ul type="square">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+    </ul>
+
+    <br>
+
+    <!-- No Bullets -->
+    <h3>No Bullets</h3>
+
+    <ul style="list-style-type: none;">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <hr>
+
+    <!-- ============================= -->
+    <!-- NESTED LIST -->
+    <!-- ============================= -->
+
+    <h2>Nested List</h2>
+
+    <ul>
+        <li>
+            Frontend
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+        </li>
+
+        <li>
+            Backend
+
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Node.js</li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <hr>
+
+    <!-- ============================= -->
+    <!-- DESCRIPTION LIST -->
+    <!-- ============================= -->
+
+    <h2>Description List</h2>
+
+    <dl>
+
+        <!-- Description Term -->
+        <dt>HTML</dt>
+
+        <!-- Description Definition -->
+        <dd>HyperText Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Programming language used to make websites interactive.</dd>
+
+    </dl>
+
+    <hr>
+
+    <!-- ============================= -->
+    <!-- QUICK REVISION -->
+    <!-- ============================= -->
+
+    <!--
+        ol = Ordered List
+        ul = Unordered List
+        li = List Item
+        dl = Description List
+        dt = Description Term
+        dd = Description Description
+
+        type="1"  -> Numbers
+        type="A"  -> Capital Alphabets
+        type="a"  -> Small Alphabets
+        type="I"  -> Capital Roman Numbers
+        type="i"  -> Small Roman Numbers
+
+        start=""      -> Starts from a custom number
+        reversed      -> Displays list in reverse order
+        list-style-type:none -> Removes bullets
+    -->
+
+</body>
+</html>
