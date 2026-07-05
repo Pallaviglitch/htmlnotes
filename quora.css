@@ -1,0 +1,19 @@
+*{
+    font-family:fantasy
+}
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+
+#login {
+  text-align: center;
+  color: rgb(94, 15, 15);
+}
+
+
+.follow {
+  text-align: right;
+  color: purple;
+}
