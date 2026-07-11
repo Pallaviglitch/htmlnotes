@@ -1,0 +1,15 @@
+
+
+.card{
+    width:300px;
+    border:2px solid black;
+      box-shadow:2px 4px 16px gray;
+}
+
+.card img{
+    width:100%;
+}
+
+.desc{
+    padding:10px;
+}

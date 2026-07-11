@@ -17,3 +17,17 @@ h1, h2, p {
   text-align: right;
   color: purple;
 }
+
+div > input {
+  text-align: right;
+  color: blue;
+}
+
+input[type] {
+  color: red;
+}
+
+button:hover{
+    background-color: purple;
+
+}
